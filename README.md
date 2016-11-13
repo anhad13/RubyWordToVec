@@ -1,5 +1,5 @@
 # RubyWordToVec: A ruby gem implementation based on Google's Word2Vec.
-
+####Contributors: Anhad Mohananey, Yashovardhan Chaturvedi
 ## Steps to build & install the gem:
 * Run : 'gem build word_to_vec.gemspec'
 * Install : 'gem install ./word_to_vec-1.0.0.gem'
