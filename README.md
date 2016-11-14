@@ -19,7 +19,10 @@ model=WordToVec.build_from_corpus(
   )
 ```
 
-Like so,  WordToVec.build_from_corpus corpus,dimensions, num_iterations=10,context=3 ,print_every=5, step_size=0.01
+Like so,  
+```ruby 
+WordToVec.build_from_corpus corpus,dimensions, num_iterations=10,context=3 ,print_every=5, step_size=0.01
+```
 To get input vector for word:
 ```ruby 
 model.print_inputV(<word>)
